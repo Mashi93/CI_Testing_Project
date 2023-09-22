@@ -1,0 +1,31 @@
+public class CalculatorTest {
+
+private Calculator calculator = new Calculator();
+
+@Test
+public void testAdd(){
+
+Assertions.assertEquals(6, calculator.add(4,2));
+
+}
+
+
+@Test
+public void testSubtract(){
+
+Assert.assertEquals(6, calculator.add(8,2));
+
+}
+
+public void testDivide(){
+
+Assert.assertEquals(6, calculator.add(12,2));
+
+}
+
+public void testMultiply(){
+
+Assert.assertEquals(6, calculator.add(3,2));
+
+}
+}
